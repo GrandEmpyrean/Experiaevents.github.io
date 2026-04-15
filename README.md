@@ -7,7 +7,7 @@
 <title>Experia Events Portfolio</title>
 
 <!-- GOOGLE FONT -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 :root {
@@ -28,7 +28,7 @@
 
 /* BASE */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -45,9 +45,10 @@ header {
 
 /* LOGO */
 .logo {
-  font-size: 4rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 5.5rem;
   font-weight: 800;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
   color: #000;
   text-transform: lowercase;
 }
@@ -62,11 +63,12 @@ header {
 
 /* TAGLINE */
 header p {
-  margin-top: 10px;
-  font-size: 1.4rem;
-  font-weight: 600;
+margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
   color: #111;
   letter-spacing: 1px;
+  text-transform: lowercase;
 }
 
 /* DARK MODE HEADER */
@@ -227,8 +229,10 @@ body.dark #theme-toggle {
 /* MOBILE TWEAK */
 @media (max-width: 480px) {
   .logo {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    letter-spacing: -2px;
   }
+}
 
   header p {
     font-size: 1rem;
